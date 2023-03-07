@@ -373,7 +373,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
-  border: transparent;
+  border-color: transparent;
 }
 
 .portfolio-examples-list {
