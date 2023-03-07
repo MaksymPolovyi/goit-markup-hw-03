@@ -373,6 +373,7 @@ ul {
   flex: none;
   order: 0;
   flex-grow: 0;
+  border: transparent;
 }
 
 .portfolio-examples-list {
@@ -403,7 +404,7 @@ ul {
 .portfolio-text {
   background: #ffffff;
   border: 1px solid #e7e9fc;
-  padding: 32px 0;
+  padding: 32px 0 32px 10px;
   border-top: none;
 }
 
