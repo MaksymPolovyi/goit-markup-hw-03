@@ -32,11 +32,17 @@ body {
   clip: rect(0 0 0 0);
   overflow: hidden;
 }
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
 /* Header */
 
 .header {
   border-bottom: 1px solid #e7e9fc;
-  b
 }
 
 .header-nav {
@@ -315,12 +321,13 @@ ul {
 .portfolio-title {
 }
 .portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
 .portfolio-list {
   display: flex;
   gap: 24px;
   justify-content: center;
-  padding-top: 96px;
   margin-bottom: 72px;
 }
 .portfolio-item-list {
@@ -373,7 +380,6 @@ ul {
   flex-wrap: wrap;
   row-gap: 48px;
   column-gap: 24px;
-  padding-bottom: 120px;
 }
 .portfolio-examples-item {
 }
@@ -398,6 +404,7 @@ ul {
   background: #ffffff;
   border: 1px solid #e7e9fc;
   padding: 32px 0;
+  border-top: none;
 }
 
 .portfolio-link {
